@@ -96,6 +96,27 @@ body {
   margin-top: 0.5rem;
 }
 
+footer {
+  background: var(--primary-blue);
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  padding: 0.8rem 0;
+  font-size: clamp(10px, 3vw, 14px);
+}
+
+footer a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: bold;
+}
+
+footer a:hover {
+  color: var(--primary-cyan);
+}
+
 @media (max-width: 375px) {
   .profile {
     width: clamp(250px, 80vw, 325px);
