@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+:root {
+  --primary-cyan: hsl(185, 75%, 39%);
+  --primary-blue: hsl(229, 23%, 23%);
+  --primary-grayish: hsl(227, 10%, 46%);
+  --neutral-gray: hsl(0, 0%, 59%);
+}
